@@ -1,0 +1,38 @@
+body {
+    background-image: url("./stars.jpg");
+    /* background-size: cover; */
+}
+
+
+.bg-img {
+    background-image: url("./zodiac-signs-removebg-preview.png");
+    width: 750px;
+    height: 600px;
+    background-size: cover;
+    margin-left: 18rem;
+    margin-top: 7rem;
+}
+
+.aries-title{
+    color: rgb(204, 172, 93);
+    margin-top: 11rem;
+    margin-left: 6.2rem;
+}
+
+.taurus-title{
+    color: rgb(204, 172, 93);
+    margin-top: -2.5rem;
+    margin-left: 16.5rem;
+}
+
+.gemini-title{
+    color: rgb(204, 172, 93);
+    margin-top: -2.5rem;
+    margin-left: 27rem;
+}
+
+.cancer-title{
+    color: rgb(204, 172, 93);
+    margin-top: -2.5rem;
+    margin-left: 37.5rem;
+}
