@@ -36,3 +36,51 @@ body {
     margin-top: -2.5rem;
     margin-left: 37.5rem;
 }
+
+.capricorn-title{
+    color: rgb(204, 172, 93);
+    margin-top: 8.7rem;
+    margin-left: 37rem;
+}
+
+.sag-title{
+    color: rgb(204, 172, 93);
+    margin-top: -2.5rem;
+    margin-left: 26rem;
+}
+
+.scorpio-title{
+    color: rgb(204, 172, 93);
+    margin-top: -2.5rem;
+    margin-left: 16.5rem;
+}
+
+.libra-title{
+    color: rgb(204, 172, 93);
+    margin-top: -2.5rem;
+    margin-left: 6.5rem;
+}
+
+.leo-title{
+    color: rgb(204, 172, 93);
+    margin-top: 9rem;
+    margin-left: 6.5rem;
+}
+
+.virgo-title{
+    color: rgb(204, 172, 93);
+    margin-top: -2.5rem;
+    margin-left: 16.5rem;
+}
+
+.aquarius-title{
+    color: rgb(204, 172, 93);
+    margin-top: -2.5rem;
+    margin-left: 26.5rem;
+}
+
+.pisces-title{
+    color: rgb(204, 172, 93);
+    margin-top: -2.4rem;
+    margin-left: 37.5rem;
+}
