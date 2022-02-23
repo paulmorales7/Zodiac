@@ -3,6 +3,7 @@ body {
     /* background-size: cover; */
 }
 
+/* Background img  */
 
 .bg-img {
     background-image: url("./zodiac-signs-removebg-preview.png");
@@ -12,6 +13,8 @@ body {
     margin-left: 28rem;
     margin-top: -8rem;
 }
+
+/* Titles */
 
 .sign-titles{
 position: relative;
@@ -91,5 +94,187 @@ font-size: 18px;
     color: rgb(204, 172, 93);
     margin-top: -2.8rem;
     margin-left: 53rem;
+}
+
+/* Buttons behind signs  */
+
+.aries-btn {
+    position: absolute;
+    top: 15rem;
+    margin-left: 7rem;
+    width: 140px;
+    height: 140px;
+    cursor: pointer;
+
+    background-color:transparent; 
+    color:transparent; 
+    outline:none; 
+    text-decoration: none; 
+     border:none;
+}  
+
+.taurus-btn {
+    position: absolute;
+    top: 15rem;
+    margin-left: 22rem;
+    width: 140px;
+    height: 140px;
+    cursor: pointer;
+
+    background-color:transparent; 
+    color:transparent; 
+    outline:none; 
+    text-decoration: none; 
+     border:none;
+}
+
+.gemini-btn {
+    position: absolute;
+    top: 15rem;
+    margin-left: 37rem;
+    width: 140px;
+    height: 140px;
+    cursor: pointer;
+
+    background-color:transparent; 
+    color:transparent; 
+    outline:none; 
+    text-decoration: none; 
+     border:none;
+}
+
+.cancer-btn {
+    position: absolute;
+    top: 15rem;
+    margin-left: 51rem;
+    width: 150px;
+    height: 140px;
+    cursor: pointer;
+
+    background-color:transparent; 
+    color:transparent; 
+    outline:none; 
+    text-decoration: none; 
+     border:none;
+}
+
+.capricorn-btn {
+    position: absolute;
+    top: 30rem;
+    margin-left: 52rem;
+    width: 150px;
+    height: 140px;
+    cursor: pointer;
+
+    background-color:transparent; 
+    color:transparent; 
+    outline:none; 
+    text-decoration: none; 
+     border:none;
+}
+
+.sag-btn {
+    position: absolute;
+    top: 29rem;
+    margin-left: 37rem;
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+
+    background-color:transparent; 
+    color:transparent; 
+    outline:none; 
+    text-decoration: none; 
+     border:none;
+}
+
+.scorpio-btn {
+    position: absolute;
+    top: 29rem;
+    margin-left: 21rem;
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+
+    background-color:transparent; 
+    color:transparent; 
+    outline:none; 
+    text-decoration: none; 
+     border:none;
+}
+
+.libra-btn {
+    position: absolute;
+    top: 29rem;
+    margin-left: 6rem;
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+
+    background-color:transparent; 
+    color:transparent; 
+    outline:none; 
+    text-decoration: none; 
+     border:none;
+}
+
+.leo-btn {
+    position: absolute;
+    top: 44rem;
+    margin-left: 6rem;
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+
+    background-color:transparent; 
+    color:transparent; 
+    outline:none; 
+    text-decoration: none; 
+     border:none;
+}
+
+.virgo-btn {
+    position: absolute;
+    top: 44rem;
+    margin-left: 22rem;
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+
+    background-color:transparent; 
+    color:transparent; 
+    outline:none; 
+    text-decoration: none; 
+     border:none;
+}
+
+.aquarius-btn {
+    position: absolute;
+    top: 44rem;
+    margin-left: 36rem;
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+
+    background-color:transparent; 
+    color:transparent; 
+    outline:none; 
+    text-decoration: none; 
+     border:none;
+}
+
+.pisces-btn {
+    position: absolute;
+    top: 44rem;
+    margin-left: 50rem;
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+
+    background-color:transparent; 
+    color:transparent; 
+    outline:none; 
+    text-decoration: none; 
+     border:none;
 }
 
