@@ -23,11 +23,11 @@ left: 1rem;
 font-size: 18px;
 }
 
+
 .aries-title{
     color: rgb(204, 172, 93);
     margin-top: 15rem;
     margin-left: 8rem;
-
 }
 
 .taurus-title{
@@ -287,6 +287,7 @@ font-size: 18px;
     height: 100%;
     width: 100%;
     z-index: 100;
+    display: none;
 }
 
 .popup-sign span {

@@ -4,6 +4,12 @@ const buttonS = document.getElementById("horobtn");
 
 buttonS.addEventListener("click", getHoro)
 
+document.querySelectorAll('.sign-buttons button').forEach(btn => {
+    btn.onclick = () => {
+        document.querySelector('.popup-sign').style.display = 'block';
+    }
+})
+
 
 function getHoro() {
     fetch("https://sameer-kumar-aztro-v1.p.rapidapi.com/?sign=libra&day=yesterday", {
@@ -24,6 +30,6 @@ function getHoro() {
     .catch(err => {
         console.error(err);
     });
-
-
 }
+
+
