@@ -278,3 +278,33 @@ font-size: 18px;
      border:none;
 }
 
+.popup-sign {
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.8);
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+}
+
+.popup-sign span {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 40px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.popup-sign div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px solid #fff;
+    width: 750px;
+    height: 500px;
+    object-fit: cover;
+}
