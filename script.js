@@ -10,6 +10,10 @@ document.querySelectorAll('.sign-buttons button').forEach(btn => {
     }
 })
 
+document.querySelector('.popup-sign span').onclick = () => {
+    document.querySelector('.popup-sign').style.display = 'none';
+}
+
 
 function getHoro() {
     fetch("https://sameer-kumar-aztro-v1.p.rapidapi.com/?sign=libra&day=yesterday", {
