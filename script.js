@@ -10,6 +10,10 @@ document.querySelectorAll('.sign-buttons button').forEach(btn => {
     }
 })
 
+document.querySelector('.sign-buttons .aries-btn').onclick = () => {
+    document.querySelector('.aries-sign').style.display = 'block'
+}
+
 document.querySelector('.popup-sign span').onclick = () => {
     document.querySelector('.popup-sign').style.display = 'none';
 }
