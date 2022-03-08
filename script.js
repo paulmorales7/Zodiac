@@ -18,6 +18,10 @@ document.querySelector('.popup-sign span').onclick = () => {
     document.querySelector('.popup-sign').style.display = 'none';
 }
 
+document.querySelector('.aries-sign span').onclick = () => {
+    document.querySelector('.aries-sign').style.display = 'none';
+}
+
 
 function getHoro() {
     fetch("https://sameer-kumar-aztro-v1.p.rapidapi.com/?sign=libra&day=yesterday", {

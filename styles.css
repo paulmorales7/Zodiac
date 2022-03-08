@@ -1,12 +1,12 @@
 body {
-    background-image: url("./stars.jpg");
+    background-image: url("./images/stars.jpg");
     /* background-size: cover; */
 }
 
 /* Background img  */
 
 .bg-img {
-    background-image: url("./zodiac-signs-removebg-preview.png");
+    background-image: url("./images/zodiac-signs-removebg-preview.png");
     width: 1000px;
     height: 850px;
     background-size: cover;
@@ -290,7 +290,7 @@ font-size: 18px;
     display: none;
 }
 
-.popup-sign, .aries-sign span {
+.popup-sign span, .aries-sign span {
     position: absolute;
     top: 0;
     right: 10px;
@@ -299,7 +299,7 @@ font-size: 18px;
     cursor: pointer;
 }
 
-.popup-sign, .aries-sign div {
+.popup-sign div {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -308,4 +308,31 @@ font-size: 18px;
     width: 750px;
     height: 500px;
     object-fit: cover;
+}
+
+.aries-border {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px solid #fff;
+    width: 750px;
+    height: 500px;
+    object-fit: cover;
+    font-size: 18px;
+    color: rgb(204, 172, 93);
+}
+
+.aries-info {
+    margin-left: 10px;
+    margin-top: 15px;
+    
+}
+
+.aries-img img {
+    width: 200px;
+    margin-bottom: 50px;
+    margin-left: 15px;
+    margin-top: 10px;
+    
 }
